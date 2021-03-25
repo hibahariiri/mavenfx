@@ -36,13 +36,13 @@ public class Main {
 
         SensorPulsoxi SensorPulsoxi = new SensorPulsoxi();
 
-        /*FileMaker fm = new FileMaker();
+        FileMaker fm = new FileMaker();
 
         fm.readFile("CPRNR.txt");
         System.out.println(fm.getCprTilFIl());
         fm.writeToFile(fm.getCprTilFIl().get("130572-0232"));
 
-         */
+
     }
 }
 

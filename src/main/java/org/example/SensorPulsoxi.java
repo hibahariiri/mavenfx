@@ -4,11 +4,11 @@ import java.util.Random;
 
 public class SensorPulsoxi {
 
+    Random r = new Random();
+
     public int puls() {
 
         //under 50 bradykardi, hvis over 100 er det tarkykardi.
-
-        Random r = new Random();
 
         double Minpuls = 45;
         double Maxpuls = 105;
@@ -20,8 +20,6 @@ public class SensorPulsoxi {
 
     public double SpO2(){
 
-        Random r = new Random();
-
         double Minspo2 = 95;
         double Maxspo2 = 100;
         double spo2 = Minspo2 + (Maxspo2 - Minspo2)* r.nextDouble();
@@ -29,7 +27,5 @@ public class SensorPulsoxi {
         return spo2;
 
     }
-
-
 
 }
